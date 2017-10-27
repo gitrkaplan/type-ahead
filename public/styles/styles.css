@@ -3,18 +3,19 @@ body {
   margin: 0;
   height: 100vh;
   font-size: 10px;
-  background-color: #2c3a49;
-  font-family: 'Roboto Mono', monospace;
+  background-color: #ecf0f1;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   font-size: 6rem;
-  color: #c5d3e2;
+  color: #3498db;
 }
 
 input {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #c5d3e2;
+  font-family: 'Roboto', sans-serif;
+  color: #3498db;
+  background-color: #ecf0f1;
   position: relative;
   padding-left: 3rem;
   font-size: 2rem;
