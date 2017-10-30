@@ -12,6 +12,11 @@ h1 {
   color: #3498db;
 }
 
+h2 {
+  padding-top: 2rem;
+  color: #7f8c8d;
+}
+
 input {
   font-family: 'Roboto', sans-serif;
   color: #3498db;
@@ -30,13 +35,13 @@ input:focus {
 
 ul {
   text-align: center;
+  width: 75%;
 }
 
 li {
   font-size: 2rem;
-  border: 1px solid #bdc3c7;
   list-style: none;
   padding: 10px;
   margin: 10px 0;
-  border-radius: 10px;
+  border-radius: 30px;
 }
