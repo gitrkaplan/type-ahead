@@ -1,0 +1,19 @@
+.hidden {
+  display: none;
+}
+
+.word {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  border: 1px solid #bdc3c7;
+}
+
+.word:hover {
+  box-shadow: 0 0 5px rgba(58, 153, 217, 1);
+  border: 1px solid #fff;
+  background-color: rgba(58, 153, 217, 1);
+  color: #fff;
+}

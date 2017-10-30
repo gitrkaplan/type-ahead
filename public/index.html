@@ -4,14 +4,21 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet"/>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/search.css">
+    <link rel="stylesheet" href="styles/words.css">
     <meta charset="utf-8"/>
     <title>Typeahead</title>
   </head>
   <body>
     <div class="container">
-      <div class="input-container">
         <h1>Typeahead</h1>
         <input id="term" type="text" placeholder="Search...">
+      <div id="cards">
+        <ul id="matches">
+          <li class=" word">Test</li>
+          <li class="hidden word">Test1</li>
+          <li class="hidden word">Test3</li>
+          <li class="hidden word">Test4</li>
+        </ul>
       </div>
     </div>
     <script type="text/javascript" src="main.js"></script>
