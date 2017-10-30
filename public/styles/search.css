@@ -3,6 +3,7 @@
   width: calc(100vw / 3);
   top: 10%;
   left: 50%;
+  bottom: 50%;
   transform: translateX(-50%);
   text-align: center;
 }
@@ -19,6 +20,6 @@ textarea {
 
 input[type='text']:focus,
 textarea:focus {
-  box-shadow: 0 0 5px rgba(58, 153, 217, 1);
-  border: 1px solid rgba(58, 153, 217, 1);
+  box-shadow: 0 0 5px rgba(39, 194, 252, 1);
+  border: 1px solid rgba(39, 194, 252, 1);
 }

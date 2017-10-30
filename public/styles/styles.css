@@ -9,7 +9,7 @@ body {
 
 h1 {
   font-size: 6rem;
-  color: #3498db;
+  color: rgb(39, 194, 252);
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
 
 input {
   font-family: 'Roboto', sans-serif;
-  color: #3498db;
+  color: rgb(39, 194, 252);
   background-color: #ecf0f1;
   position: relative;
   padding-left: 3rem;

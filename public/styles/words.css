@@ -11,7 +11,25 @@
 }
 
 .word:hover {
-  box-shadow: 0 0 5px rgba(58, 153, 217, 1);
-  background-color: rgba(58, 153, 217, 1);
+  box-shadow: 0 0 5px rgba(39, 194, 252, 1);
+  background-color: rgba(39, 194, 252, 1);
   color: #fff;
+}
+
+.matched {
+  color: #000;
+  font-weight: bold;
+}
+
+.word:hover .matched {
+  color: #fff;
+}
+
+.suggested {
+  color: #7f8c8d;
+}
+
+.word:hover .suggested {
+  color: #fff;
+  opacity: 0.7;
 }

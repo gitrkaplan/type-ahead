@@ -10,7 +10,6 @@ const words = () => {
 
 input.addEventListener('keyup', () => {
   let current = input.value.toLowerCase()
-  console.log(current)
   words().then(results => findString(current, results))
 })
 
@@ -19,8 +18,11 @@ const findString = (str, array) => {
   if (str !== '') {
     placeholder.classList.add('hidden')
     for (let i = 0; i < array.length; i++) {
-      if (array[i].word.indexOf(str) > -1) {
-        renderWord(array[i].word)
+      if (array[i].word.startsWith(str)) {
+        // if (array[i].word.match(str).input !== null) {
+        //   input.value = array[i].word.match(str).input
+        // }
+        renderWord(array[i].word, str)
       }
     }
   } else {
@@ -28,10 +30,16 @@ const findString = (str, array) => {
   }
 }
 
-const renderWord = word => {
+const renderWord = (word, term) => {
   const $word = document.createElement('li')
+  const $term = document.createElement('span')
+  $term.classList.add('matched')
+  const $suggested = document.createElement('span')
+  $suggested.classList.add('suggested')
+  $suggested.textContent = word.slice(term.length)
+  $term.textContent = term
   $word.classList.add('word')
-  $word.innerHTML = word
+  $word.append($term, $suggested)
   matches.appendChild($word)
 }
 
