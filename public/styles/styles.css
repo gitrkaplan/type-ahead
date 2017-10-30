@@ -23,6 +23,7 @@ input {
   background-color: #ecf0f1;
   position: relative;
   padding-left: 3rem;
+  margin: auto;
   font-size: 2rem;
   height: 40px;
   width: 100%;
@@ -34,6 +35,8 @@ input:focus {
 }
 
 ul {
+  margin: auto;
+  padding: 10px 0 0;
   text-align: center;
   width: 75%;
 }
