@@ -19,9 +19,6 @@ const findString = (str, array) => {
     placeholder.classList.add('hidden')
     for (let i = 0; i < array.length; i++) {
       if (array[i].word.startsWith(str)) {
-        // if (array[i].word.match(str).input !== null) {
-        //   input.value = array[i].word.match(str).input
-        // }
         renderWord(array[i].word, str)
       }
     }
