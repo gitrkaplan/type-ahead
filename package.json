@@ -1,0 +1,29 @@
+{
+  "name": "type-ahead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "watch": "nodemon",
+    "seed": "node seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitrkaplan/type-ahead.git"
+  },
+  "author": "Ryan Kaplan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitrkaplan/type-ahead/issues"
+  },
+  "homepage": "https://github.com/gitrkaplan/type-ahead#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  }
+}

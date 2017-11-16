@@ -1,0 +1,25 @@
+.container {
+  position: absolute;
+  width: calc(100vw / 3);
+  top: 10%;
+  left: 50%;
+  bottom: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+input[type='text'],
+textarea {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  border: 1px solid #bdc3c7;
+}
+
+input[type='text']:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgba(39, 194, 252, 1);
+  border: 1px solid rgba(39, 194, 252, 1);
+}
